@@ -1,0 +1,181 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #222222;
+}
+
+header {
+    background-color: #1f6feb;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+nav {
+    background-color: #333333;
+    text-align: center;
+    padding: 14px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 12px;
+}
+
+nav a:hover {
+    color: #1f6feb;
+}
+
+main {
+    background-color: white;
+    width: 80%;
+    max-width: 950px;
+    margin: 25px auto;
+    padding: 30px;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid #cccccc;
+}
+
+h2 {
+    color: #1f6feb;
+    font-size: 28px;
+}
+
+h3 {
+    color: #333333;
+    margin-top: 25px;
+}
+
+p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+ul,
+ol {
+    display: inline-block;
+    text-align: left;
+    line-height: 1.8;
+    font-size: 16px;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.button {
+    background-color: #1f6feb;
+    color: white;
+    padding: 12px 20px;
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #1557b0;
+}
+
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #cccccc;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #1f6feb;
+    color: white;
+}
+
+form {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 6px 0 16px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 120px;
+}
+
+button {
+    background-color: #1f6feb;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #1557b0;
+}
+
+footer {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 700px) {
+    nav a {
+        display: block;
+        margin: 8px 0;
+    }
+
+    main {
+        width: 90%;
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 32px;
+    }
+}
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
